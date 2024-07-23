@@ -80,7 +80,7 @@ console.log(storiesPerson)
         <>
         
             <div className="stories pt-6 pb-1 mt-10 w-full md:h-28 px-4 flex items-center gap-5 border-b-2 overflow-x-auto no-scrollbar bg-[#F9F9F9]">
-            <div className="yourStory  w-[24%] flex items-center flex-col relative">
+            <div className="yourStory   flex items-center flex-col relative">
                <img className='w-14 h-14 object-cover rounded-full' src="https://i.pinimg.com/236x/7a/b4/b4/7ab4b43aee2819e10756c332c2914b22.jpg" alt="" />
                <RiAddCircleLine className='absolute top-[47%] left-[60%] text-base bg-[#0098F6] text-white rounded-full'/>
                <p className='name text-xs font-semibold mt-2'>Your story</p>
