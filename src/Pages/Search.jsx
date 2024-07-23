@@ -38,7 +38,7 @@ function Search() {
 //   console.log(searchData)
 
      if (!searchedData) return <div>
-        <div className="uppernavSearch bg-white w-full md:w-2/6 z-10 fixed top-0 px-3  flex items-center justify-between pt-6 pb-1 border-b">
+        <div className="uppernavSearch bg-white w-full md:w-2/6 z-10 fixed top-0 px-3  flex items-center justify-between  py-2 border-b">
           <input onChange={(e)=>setSearch(e.target.value)} className='w-full py-[2px]  px-2 border-2 rounded' type="text" placeholder="search" />
         </div>
         <LowerNav/>
@@ -67,7 +67,7 @@ function Search() {
                 })
             }
 
-            <div className="searchDisplayItem py-2 px-2 flex gap-3">
+            {/* <div className="searchDisplayItem py-2 px-2 flex gap-3">
                <img className='h-12 w-12 object-cover rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqv0yhmgYRdl3waFAwUcvh7bVG39Rh82nIKw&s" alt="" />
                 <div className="names">
                     <h1 className='userNames text-sm font-medium'>tariqkh4nn</h1>
@@ -145,9 +145,9 @@ function Search() {
                     <h1 className='userNames text-sm font-medium'>tariqkh4nn</h1>
                     <p className='actualName text-sm'>Muhammad Tariq</p>
                 </div>
-            </div>
+            </div> */}
          </div>
-         <div className='h-16 w-full'></div>
+         <div className='h-8 w-full'></div>
             <LowerNav/>
         </div>
        </> 

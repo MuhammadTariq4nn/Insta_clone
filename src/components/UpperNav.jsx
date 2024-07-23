@@ -7,7 +7,7 @@ function UpperNav(props) {
     // console.log()
     return (
      <>
-        <div className="uppernav bg-white w-full md:w-2/6 z-10 fixed top-0  px-3 pt-6 pb-1 flex items-center justify-between h-14 border-b-2">
+        <div className="uppernav bg-white w-full md:w-2/6 z-10 fixed top-0  px-3  flex items-center justify-between py-2 border-b-2">
             <Link to={'/'}>
             <div className="instalogo w-28 object-fit flex items-center ">
                    <img src={props.pic} alt="" />{props.name} <span className='font-bold text-xl pl-5'>{props.post}</span>
